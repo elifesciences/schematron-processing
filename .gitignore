@@ -1,0 +1,6 @@
+venv/
+schema/
+article-xml
+article-xml/
+*~
+
