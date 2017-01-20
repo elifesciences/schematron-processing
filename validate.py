@@ -31,7 +31,7 @@ def runschematron(rulesFile, xmlFile):
         
 def main():
     schema = 'schema/reference/eLife-elem-citation-driver-final.sch'
-    schema = 'schema/reference/min.sch' # pared down to almost nothing
+    schema = 'min.sch' # pared down to almost nothing
     xml = 'article-xml/articles/elife-09560-v1.xml'
     runschematron(schema, xml)
     
