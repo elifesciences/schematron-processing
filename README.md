@@ -2,6 +2,8 @@
 
 ## install
 
+This project uses lxml and requires *libxml2* installed.
+
     $ ./install.sh
     
 ## validate
