@@ -32,7 +32,7 @@ def runschematron(rulesFile, xmlFile):
 def main():
     schema = 'schema/reference/eLife-elem-citation-driver-final.sch'
     schema = 'min.sch' # pared down to almost nothing
-    xml = 'article-xml/articles/elife-09560-v1.xml'
+    xml = 'elife-09560-v1.xml'
     runschematron(schema, xml)
     
 if __name__ == '__main__':
