@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e # everything must succeed.
 
+. download-schematron-rules.sh
+
 # use the latest version of python2 we can find.
 
 # ll: /usr/bin/python2.7
