@@ -19,11 +19,11 @@ def runschematron(rulesFile, xmlFile):
             
     except lxml.etree.XSLTParseError as err:
         # problem parsing the schema
-        print err
+        print(err)
 
     except lxml.etree.XSLTApplyError as err:
         # no problems parsing the schema, we do have a problem compiling it
-        print err
+        print(err)
 
 #
 #
